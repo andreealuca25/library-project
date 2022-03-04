@@ -1,0 +1,27 @@
+.menu-library-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: center;
+}
+
+.library {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 700px;
+  background-image: url("../assets/istockphoto-626755782-170667a.jpg");
+}
+
+.shelf {
+  display: flex;
+  background-color: #442200;
+  height: 100px;
+  width: 700px;
+  border: 10px;
+  border-style: double;
+  border-block-color: black;
+  flex-direction: row;
+  justify-content: space-around;
+}

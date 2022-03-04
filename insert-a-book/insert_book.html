@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../main-page/mainPage.css" />
+  <link rel="stylesheet" href="../main-page/library.css" />
+  <link rel="stylesheet" href="./book_add.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Glass Antiqua"
+    rel="stylesheet"
+  />
+
+  <body>
+    <div class="title-ellipse">
+      <h1 class="title-text">Infinity Bibliotheca</h1>
+    </div>
+
+    <div class="menu-library-wrapper">
+      <div class="flex-menu">
+        <div class="flex-menu-item">
+          <a class="a-link" href="../main-page/mainPage.html">Home</a>
+        </div>
+        <div class="flex-menu-item">
+          <a class="a-link" href="../insert-a-book/insert_book.html"
+            >Add a book</a
+          >
+        </div>
+        <div class="flex-menu-item">
+          <a class="a-link" href="../display-books/see_all_books.html"
+            >See all books</a
+          >
+        </div>
+      </div>
+
+      <form id="bookForm">
+        <div class="form-book-adder">
+          <div class="label-form">
+            <label for="book">Book name:</label>
+          </div>
+          <div class="input-form">
+            <input
+              type="text"
+              id="book"
+              name="book"
+              placeholder="Enter the name of the book: "
+            />
+          </div>
+          <div class="label-form">
+            <label for="author">Author:</label>
+          </div>
+          <div class="input-form">
+            <input
+              type="text"
+              id="author"
+              name="author"
+              placeholder="Enter the author: "
+            />
+          </div>
+          <div class="label-form">
+            <label for="publicationdate">Publication date:</label>
+          </div>
+          <div class="input-form">
+            <input
+              type="text"
+              id="publicationdate"
+              name="publicationdate"
+              placeholder="Enter the publication date: "
+            />
+          </div>
+          <div class="label-form">
+            <label for="img">Select cover:</label>
+          </div>
+          <div class="input-img-form">
+            <input type="file" id="img" name="img" />
+          </div>
+          <div class="input-form">
+            <input type="submit" value="Submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="insert_mongo_db.js"></script>
+  </body>
+</html>

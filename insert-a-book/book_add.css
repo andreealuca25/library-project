@@ -1,0 +1,46 @@
+.form-book-adder {
+  display: flex;
+  flex-direction: column;
+}
+.label-form {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 10px solid;
+  border-radius: 50%;
+  background-color: #442200;
+  color: black;
+}
+.input-form {
+  display: flex;
+  justify-content: space-around;
+}
+label {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-family: "Glass Antiqua";
+  font-size: 15px;
+  margin-left: 20px;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+}
+.input-img-form {
+  display: flex;
+  margin-left: 150px;
+}
+label,
+input[type="image"] {
+  margin-top: 1rem;
+}
+
+input[type="submit"] {
+  background-color: #013220;
+  width: 100px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "Glass Antiqua";
+}
